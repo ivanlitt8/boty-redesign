@@ -82,15 +82,23 @@ export default function Home() {
             </p>
             <br></br>
             <div className="flex justify-center pt-0 sm:pt-8">
-              <a
-                href="https://app.boty.cloud/login"
-                target="_blank"
-                className="border-2 justify-center items-center rounded-2xl px-2 border-violet sm:w-64 w-32 h-10 sm:h-14 flex flex-row space-x-5"
-              >
-                <span className="text-violet font-bold text-xs sm:text-2xl">
-                  EMPECEMOS
-                </span>
-              </a>
+              <div className="flex flex-col items-center">
+                <a
+                  href="https://app.boty.cloud/login"
+                  target="_blank"
+                  className="border-2 justify-center items-center rounded-2xl px-2 border-violet sm:w-64 w-32 h-10 sm:h-14 flex flex-row space-x-5 "
+                >
+                  <span className="text-violet font-bold text-xs sm:text-2xl cursor-pointer hover:scale-125 transition-all duration-150">
+                    EMPECEMOS
+                  </span>
+                </a>
+                <a
+                  href=""
+                  className="text-gray-700 underline p-2 text-xs font-light sm:text-base"
+                >
+                  ¿Ya tienes una cuenta?
+                </a>
+              </div>
             </div>
           </div>
           <Boty />
