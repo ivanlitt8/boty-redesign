@@ -5,7 +5,7 @@ import Image from "next/image";
 import BotyImg from "/public/assets/png/Boty Cuerpo_Sin Bg.png";
 
 const Boty = () => {
-  const [imageSize, setImageSize] = useState({ width: 150, height: 150 }); // Valores iniciales del tamaño de la imagen
+  const [imageSize, setImageSize] = useState({ width: 100, height: 100 }); // Valores iniciales del tamaño de la imagen
 
   // Función para actualizar el tamaño de la imagen cuando cambie el ancho de la ventana
   useEffect(() => {

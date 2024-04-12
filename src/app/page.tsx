@@ -65,7 +65,7 @@ export default function Home() {
             <div className="-top-10 right-40 absolute hidden sm:block">
               <SquareTest width="200" height="200" fill="#8770FF" rx="50" />
             </div>
-            <div className="top-24 right-32 absolute z-10 hidden sm:block">
+            <div className="top-24 right-32 absolute -z-10 hidden sm:block">
               <Square width="200" height="140" fill="#FF0077" rx="30" />
             </div>
             <div className="top-40 right-24 absolute hidden sm:block">
