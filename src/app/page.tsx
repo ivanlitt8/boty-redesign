@@ -61,7 +61,7 @@ export default function Home() {
           <Logo />
         </nav>
         <div className="mx-5 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-10 2xl:mx-60 ">
-          <div className="flex flex-col justify-normal sm:justify-center pt-10 sm:pt-0 h-1/2vh w-full">
+          <div className="flex flex-col justify-normal sm:justify-center pt-10 sm:pt-0 h-1/2vh sm:h-screen w-full">
             <div className="-top-10 right-40 absolute hidden sm:block">
               <SquareTest width="200" height="200" fill="#8770FF" rx="50" />
             </div>
@@ -74,7 +74,7 @@ export default function Home() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-9xl font-extrabold text-violet z-50 pt-10 sm:pt-0">
               ¡Descubre la revolución del Business Intelligence con Boty!
             </h1>
-            <p className="z-50 text-black mt-5 text-left text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl ">
+            <p className="z-50 text-black mt-5 text-left text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl w-3/4">
               Maximiza tu <strong>rentabilidad</strong>,{" "}
               <strong>automatiza</strong> tus procesos y libera tu mente para
               enfocarte en lo que realmente importa:
@@ -90,7 +90,6 @@ export default function Home() {
                 <span className="text-violet font-bold text-xs sm:text-2xl">
                   EMPECEMOS
                 </span>
-                {/* <Image src={arrow} width={20} height={20} alt="enter" /> */}
               </a>
             </div>
           </div>
