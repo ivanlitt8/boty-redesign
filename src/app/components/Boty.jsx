@@ -35,7 +35,7 @@ const Boty = () => {
   }, []);
 
   return (
-    <div className="absolute -z-10 bottom-0 sm:right-10 right-5">
+    <div className="absolute -z-10 -bottom-2 lg:bottom-0 sm:right-10 right-5">
       <Image
         id="boty"
         src={BotyImg}
