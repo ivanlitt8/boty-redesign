@@ -61,7 +61,7 @@ export default function Home() {
           <Logo />
         </nav>
         <div className="mx-5 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-10 2xl:mx-60 ">
-          <div className="flex flex-col justify-normal sm:justify-center pt-10 sm:pt-0 h-screen w-full">
+          <div className="flex flex-col justify-normal sm:justify-center pt-10 sm:pt-0 h-1/2vh w-full">
             <div className="-top-10 right-40 absolute hidden sm:block">
               <SquareTest width="200" height="200" fill="#8770FF" rx="50" />
             </div>
@@ -71,7 +71,7 @@ export default function Home() {
             <div className="top-40 right-24 absolute hidden sm:block">
               <Square width="150" height="160" fill="#FF5F33" rx="20" />
             </div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-9xl font-extrabold text-violet z-50">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-9xl font-extrabold text-violet z-50 pt-10 sm:pt-0">
               ¡Descubre la revolución del Business Intelligence con Boty!
             </h1>
             <p className="z-50 text-black mt-5 text-left text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl ">
@@ -81,24 +81,24 @@ export default function Home() {
               <strong> tu estrategia</strong>.
             </p>
             <br></br>
-            <div className="flex justify-center mt-8">
+            <div className="flex justify-center pt-0 sm:pt-8">
               <a
                 href="https://app.boty.cloud/login"
                 target="_blank"
-                className="border-2 justify-center items-center rounded-2xl px-2 border-violet w-64 h-14 flex flex-row space-x-5"
+                className="border-2 justify-center items-center rounded-2xl px-2 border-violet sm:w-64 w-32 h-10 sm:h-14 flex flex-row space-x-5"
               >
-                <span className="text-violet font-extrabold text-2xl">
+                <span className="text-violet font-bold text-xs sm:text-2xl">
                   EMPECEMOS
                 </span>
-                <Image src={arrow} width={20} height={20} alt="enter" />
+                {/* <Image src={arrow} width={20} height={20} alt="enter" /> */}
               </a>
             </div>
           </div>
           <Boty />
         </div>
       </main>
-      <footer className="py-5 w-full text-center">
-        <p className="text-base text-gray-500">
+      <footer className="py-5 w-full text-center ">
+        <p className="text-xs sm:text-base text-gray-500">
           © {new Date().getFullYear()} Boty. Todos los derechos reservados.
         </p>
       </footer>
