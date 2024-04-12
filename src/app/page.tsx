@@ -4,8 +4,8 @@ import { Inter } from "next/font/google";
 import { useRouter, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Script from "next/script";
-//import * as gtag from '@/gtag.js';
 import Square from "@/app/components/Square";
+import SquareTest from "@/app/components/SquareTest";
 import Logo from "@/app/components/Logo";
 // import Glutter from "@/app/components/Gluter";
 import Boty from "@/app/components/Boty";
@@ -63,7 +63,7 @@ export default function Home() {
         <div className="mx-5 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-10 2xl:mx-60 ">
           <div className="flex flex-col justify-normal sm:justify-center pt-10 sm:pt-0 h-screen w-full">
             <div className="-top-10 right-40 absolute hidden sm:block">
-              <Square width="200" height="200" fill="#8770FF" rx="50" />
+              <SquareTest width="200" height="200" fill="#8770FF" rx="50" />
             </div>
             <div className="top-24 right-32 absolute z-10 hidden sm:block">
               <Square width="200" height="140" fill="#FF0077" rx="30" />
